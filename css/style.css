@@ -150,8 +150,56 @@ section.diferenciais{
     font-size: 16px;
 }
 
+section.sobre-equipe{
+    padding: 30px 0;
+    background: rgb(225, 225, 225);
+}
+
+section.sobre-equipe .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equipe-container{
+    width: 50%;
+}
+
+.sobre-container{
+    width: 50%;
+}
+
+.sobre-container p{
+    color: black;
+    font-size: 15px ;
+    margin-top: 10px;
+}
+
+.img-avatar{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-size: 100% 100%;
+    border-radius: 50%;    
+}
+
+.desc-avatar{
+    padding:10px 10px;
+    width: calc(100% - 70px);
+    display: inline-block;
+}
+
+
 @media screen and (max-width: 768px){
     .box-icone-single{
+        width: 100%;        
+    }
+
+    .equipe-container{
         width: 100%;
+    }
+    
+    .sobre-container{
+        width: 100%;
+        margin-top: 50px;
     }
 }
