@@ -281,6 +281,7 @@ footer.footer1 h2{
 footer.footer1 p{
     margin-top: 8px;
     font-weight: lighter;
+    /* margin-left: 115px; */
 }
 
 footer.footer1 a{
@@ -295,10 +296,20 @@ footer.footer1 .group-icons a{
     margin: 0 15px;
 }
 
+footer.footer2{
+    padding: 15px 0;
+    background:#237a70;
+    text-align: center;
+    color: white;
+}
+
 @media screen and (max-width: 768px){
+
+    footer.footer1{text-align: center;}
+
     .card-single{width: 100%;}
 
-    .w50{width: 100%; margin-bottom: 20px;}
+    .w50,.w33{width: 100%; margin-bottom: 20px;}
 
     .box-icone-single{
         width: 100%;        
