@@ -39,6 +39,10 @@ header{
     font-weight: normal;
     font-size: 23px;
 }
+.logo a{
+    color: black;
+    text-decoration: none;
+}
 
 nav.menu-desktop{
     float: right;
@@ -408,6 +412,32 @@ section.sobre__noticia{
 
 .paragrafo__noticia__single p{
     margin-top: 8px;
+}
+
+/* Efeito parallax na página sobre */
+section.parallax{
+    padding: 30px 0;
+    width: 100%;
+    min-height: 200px;
+    background-image: url('../images/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section.parallax h2{
+    border: 1px solid #44D4C5;
+    padding: 5px 25px;
+    color: #44D4c5;
+    font-size: 18px;
+    display: inline-block;
+}
+
+section.parallax p{
+    margin-top: 10px;
+    color: white;
 }
 
 
