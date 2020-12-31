@@ -440,6 +440,53 @@ section.parallax p{
     color: white;
 }
 
+/* Container da equipe-circles */
+section.equipe{
+    padding: 40px 0;
+}
+
+.equipe-circles{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equipe-circle-single{
+    text-align: center;
+    padding: 0 20px;
+    width: 33.3%;
+}
+
+.equipe-circle-single h3{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.equipe-circle-single p{
+    font-weight: lighter;
+}
+
+.avatar-single{
+    position: relative;
+    width: 60%;
+    padding-top: 60%;
+    margin: 0 auto;
+}
+
+.avatar-single-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: #44D4C5;
+    background-size: 100% 100%;
+    
+
+}
+
 
 @media screen and (max-width: 768px){
 
@@ -471,6 +518,8 @@ section.parallax p{
        padding: 0;
        margin-top: 8px;
     }
+
+    
 }
 
 @media screen and (max-width: 500px){
@@ -479,7 +528,13 @@ section.parallax p{
     }
     nav.menu-desktop{display: none;}
 
-    nav.menu-mobile{display: block;}
+    nav.menu-mobile{display: block;}   
+  
+    .equipe-circle-single{
+        padding: 0 8px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
     
 
 }
