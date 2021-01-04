@@ -12,11 +12,45 @@
     padding: 0 2%;
 }
 
+<<<<<<< HEAD
+=======
+.w100{
+    width: 100%;
+    
+}
+
+.w60{
+    width: 60%;
+    float: left;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.w40{
+    width: 40%;
+    float: left;
+}
+
+.w33{
+    width: 33.3%;
+    float: left;
+}
+
+.center{text-align: center;}
+
+>>>>>>> ramificação
 .clear{clear: both;}
 
 /* Classes do meu site */
 header{
+<<<<<<< HEAD
     padding-top:8px 0;
+=======
+    padding:8px 0;
+>>>>>>> ramificação
 }
 
 .logo{
@@ -27,12 +61,27 @@ header{
     font-weight: normal;
     font-size: 23px;
 }
+<<<<<<< HEAD
 nav.menu-desktop li.selected{font-weight: bold;}
+=======
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+>>>>>>> ramificação
 
 nav.menu-desktop{
     float: right;
 }
 
+<<<<<<< HEAD
+=======
+nav.menu-desktop li.selected{
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+>>>>>>> ramificação
 nav.menu-desktop ul{
     position: relative;
     top: 8px;
@@ -49,4 +98,589 @@ nav.menu-desktop a{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 nav.menu-desktop a:hover{text-decoration: underline;}
+=======
+nav.menu-desktop a:hover{
+    text-decoration: underline;
+}
+
+nav.menu-mobile{
+    display: none;
+    float: right;
+}
+
+nav.menu-mobile ul{
+    display: none;
+    width: 100%;
+    background: white;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 50px;
+    z-index: 999;
+}
+
+nav.menu-mobile li{
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+}
+
+nav.menu-mobile li.selected{
+    background: rgb(225, 225, 225);
+
+}
+
+nav.menu-mobile a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+nav.menu-mobile h2{
+    cursor: pointer;
+}
+
+/* Sessão Main-bg */
+section.main-bg{
+    position: relative;
+    width: 100%;
+    /* height: 600px; */
+    padding: 140px 0 200px 0;
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+}
+
+section.main-bg .container{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.6);
+}
+
+section.main-bg h2{
+    font-weight: normal;    
+    color:#44D4C5;
+    font-size: 40px;
+}
+
+section.main-bg p{
+    text-align: left;
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+
+/* Sessão diferenciais */
+
+section.diferenciais{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.line-text{
+    position: relative;
+    display: inline-block;
+    color: #52aaa7;
+}
+
+.line-text div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background: #52aaa7;
+}
+
+.icones-diferenciais{
+    margin-top: 35px;
+}
+
+.line-text h2{
+    font-weight: normal;
+    font-size: 27px;
+}
+
+.icones-diferenciais{
+    margin-top: 35px;
+}
+
+.box-icone-single{
+    float: left;
+    width: 33.3%; 
+    margin-bottom: 20px;
+    padding: 0 10px;   
+}
+
+.box-icone-single h2{
+    color: #8a6b62;
+    font-size: 40px;
+}
+
+.box-icone-single p{
+    color: #646464;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+section.sobre-equipe{
+    padding: 30px 0;
+    background: rgb(225, 225, 225);
+}
+
+section.sobre-equipe .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equipe-container{
+    width: 50%;
+}
+
+.sobre-container{
+    width: 50%;
+}
+
+.sobre-container p{
+    color: black;
+    font-size: 15px ;
+    margin-top: 10px;
+}
+
+.img-avatar{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-size: 100% 100%;
+    border-radius: 50%;    
+}
+
+.desc-avatar{
+    padding:10px 10px;
+    width: calc(100% - 70px);
+    display: inline-block;
+}
+
+section.inscriçao{
+    background: #52aaa7;
+    padding: 20px 0;
+}
+
+.insc-texto{
+    font-weight: normal;
+    color: white;
+    
+}
+
+.insc-form input[type=text]{
+    width: calc(100% - 120px);
+    height: 40px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    color: #414040;
+       
+}
+
+.insc-form input[type=submit]{
+    width: 120px;
+    height: 40px;
+    background: #1d6c64;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+section.cards{
+    padding: 30px 0;
+}
+
+.card-single{
+    width: 33.3%;
+    float: left;
+    padding: 50px;
+}
+
+.card-single img{
+    width: 100%;
+}
+
+.card-single h3{
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.card-single p{
+    margin: 10px 0;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+footer.footer1{
+    text-align: center;
+    background: #52aaa7;
+    padding: 20px 0;
+    color: white;
+}
+
+footer.footer1 h2{
+    font-weight: normal;
+    font-size: 23px;
+}
+
+footer.footer1 p{
+    margin-top: 8px;
+    font-weight: lighter;
+    /* margin-left: 115px; */
+}
+
+footer.footer1 a{
+    padding-top: 8px;
+    color: white;
+    display: block;
+}
+
+footer.footer1 .group-icons a{
+    font-size: 23px;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer.footer2{
+    padding: 15px 0;
+    background:#237a70;
+    text-align: center;
+    color: white;
+}
+
+/* Página_Sobre */
+section.title-page{
+    padding: 30px;
+    width: 100%;
+    min-height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+section.title-page .container{
+    position: relative;
+    z-index: 101;
+    
+}
+
+section.title-page h2{
+    color: #44D4C5;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+section.title-page p{
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 15px;
+
+}
+
+.overlay__title-page{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.4);
+}
+
+/* Sobre container da notícia */
+section.sobre__noticia{
+    padding: 30px 0;
+}
+
+.sobre__noticia__single img{
+    max-width: 100%;
+    float: left;
+    width: 50%;
+}
+
+.sobre__noticia__single p{
+    font-size: 16px;
+    padding: 10px 15px;
+    float: left;
+    width: 50%;
+}
+
+.paragrafo__noticia__single{
+    margin-top: 15px;
+}
+
+.paragrafo__noticia__single p{
+    margin-top: 8px;
+}
+
+/* Efeito parallax na página sobre */
+section.parallax{
+    padding: 30px 0;
+    width: 100%;
+    min-height: 200px;
+    background-image: url('../images/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section.parallax h2{
+    border: 1px solid #44D4C5;
+    padding: 5px 25px;
+    color: #44D4c5;
+    font-size: 18px;
+    display: inline-block;
+}
+
+section.parallax p{
+    margin-top: 10px;
+    color: white;
+}
+
+/* Container da equipe-circles */
+section.equipe{
+    padding: 40px 0;
+}
+
+.equipe-circles{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equipe-circle-single{
+    text-align: center;
+    padding: 0 20px;
+    width: 33.3%;
+}
+
+.equipe-circle-single h3{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.equipe-circle-single p{
+    font-weight: lighter;
+}
+
+.avatar-single{
+    position: relative;
+    width: 60%;
+    padding-top: 60%;
+    margin: 0 auto;
+}
+
+.avatar-single-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: #44D4C5;
+    background-size: 100% 100%;
+}
+
+section.sobre__final{
+    background-color: rgb(230, 230, 230);
+    border-top: 2px solid rgb(210, 210, 210);
+    padding: 20px 0;
+}
+
+section.sobre__final p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.card-text{
+    margin-top: 10px;
+    width: 80%;
+    position: relative;
+}
+
+.card-text img{
+    max-width: 100%;
+}
+
+.card-text h3{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+section.contato{
+    min-height: 600px;
+    padding: 30px 0;
+}
+
+section.contato .w50,
+section.contato .w100{
+    padding:0 10px;
+}
+
+.formulario form{
+    margin-top: 10px;
+}
+
+.formulario h2{
+    background: #DDDDDD;
+    text-align: center;
+    color: #ACAC9D;
+    font-size:16px;
+    font-weight: normal;
+    border-left: 5px solid #CCCCCC;
+    padding: 4px 0;
+}
+
+.formulario input[type=text],
+.formulario input[type=email]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-left: 8px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+    resize: vertical;
+}
+
+.tags-form{
+    padding-left: 50px;
+}
+
+.tags-form h2{
+    font-weight: normal;
+}
+
+.tags-form p{
+    font-weight: lighter;
+}
+
+.tags-form p.tag-contato{
+    color: white;
+    background: #249B8F;
+    text-align: center;
+    margin-top: 6px;
+    padding: 8px 4px;
+}
+
+@media screen and (max-width: 1280px){
+    section.contato{
+        min-height: 0px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+.tags-form{
+    padding-left: 0px;
+}
+
+.formulario input[type=text],
+.formulario input[type=email]{
+    margin-bottom: 0px;
+}
+
+.formulario textarea{
+    margin-bottom: 0;
+}
+
+    footer.footer1{text-align: center;}
+
+    .card-single{width: 100%;}
+
+    .w50,.w33,.w60,.w40,.w100{width: 100%; margin-bottom: 20px;}
+
+    .box-icone-single{
+        width: 100%;        
+    }
+
+    .equipe-container{
+        width: 100%;
+    }
+    
+    .sobre-container{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .sobre__noticia__single img{
+       width: 100%;
+    }
+    
+    .sobre__noticia__single p{
+       width: 100%;
+       padding: 0;
+       margin-top: 8px;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px){
+    .card-single{
+        padding: 10px;
+    }
+    nav.menu-desktop{display: none;}
+
+    nav.menu-mobile{display: block;}   
+  
+    .equipe-circle-single{
+        padding: 0 8px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .card-text{
+        width: 100%;
+    }
+    
+
+}
+>>>>>>> ramificação
